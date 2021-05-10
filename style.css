@@ -1,0 +1,52 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
+.container {
+    margin: 20px auto;
+    max-width: 400px;
+    text-align: center;
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+input, textarea {
+    border-radius: 15px;
+    padding: 15px;
+    border: 2px solid grey;
+    width: 334px;
+    background-color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+input:focus, textarea:focus {
+    background-color: lightyellow;
+}
+
+button {
+    background-color: saddlebrown;
+    color: #fff;
+    font-weight: bold;
+    border: 1px solid black;
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+    width: 150px;
+    height: 60px;
+}
+
+.komen {
+    background-color: white;
+    border: 2px solid red;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+#hantu {
+    position: absolute;
+    display: none;
+}

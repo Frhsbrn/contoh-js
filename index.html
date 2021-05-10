@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ms">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendapat Anda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="namauser">
+        <label for="nama">Siapa nama anda?</label>
+        <input type="text" id="nama">
+        <button onclick="teruskan()">TERUSKAN</button>
+    </div>
+
+    <div class="container" id="pendapat">
+        <p id="ucapan">tajuk</p>
+
+        <p class="komen">
+            <strong>SAYA SUKA KEPADANYA</strong><br>
+            Beliau seorang yang sangat baik, rajin, 
+            peramah dan berhati mulia. <br>
+            <button onclick="suka()">HANTAR</button>
+        </p>
+
+        <p class="komen">
+            <strong>SAYA TIDAK SUKA KEPADANYA</strong><br>
+            <textarea id="sifat" placeholder="Nyatakan sifat negatif beliau"></textarea>
+            <br>
+            <button onmouseover="taksuka()" id="taksuka">HANTAR</button>
+            <button onmouseover="taksuka()" id="hantu">HANTAR</button>
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
