@@ -1,4 +1,4 @@
-let namaanda = 'NAMA ANDA'; // gantikan nama anda di sini
+let namaanda = 'NOR FARAH SABRINA BINTI ROSLI'; // gantikan nama anda di sini
 
 document.getElementById('pendapat').hidden = true;
 
